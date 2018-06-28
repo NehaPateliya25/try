@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+
+.mainDiv{
+ 	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+ }
+
+.is-animate.style1 > div { animation-name: style1; }
+
+.is-animate > div {
+	  animation-duration: 1.5s;
+	  animation-fill-mode: both;
+	  animation-iteration-count: infinite;
+	  background-color: #fff;
+    margin: 1px;
+    color: #b91e14;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 9px -3px #000;
+    display: inline-block;
+}
+
+.is-animate > div:nth-child(1) { animation-delay: 2.0s }
+.is-animate > div:nth-child(2) { animation-delay: 2.1s }
+.is-animate > div:nth-child(3) { animation-delay: 2.2s }
+.is-animate > div:nth-child(4) { animation-delay: 2.3s }
+.is-animate > div:nth-child(5) { animation-delay: 2.4s }
+.is-animate > div:nth-child(6) { animation-delay: 2.5s }
+.is-animate > div:nth-child(7) { animation-delay: 2.6s }
+.is-animate > div:nth-child(8) { animation-delay: 2.7s }
+.is-animate > div:nth-child(9) { animation-delay: 2.8s }
+.is-animate > div:nth-child(10) { animation-delay: 2.9s }
+.is-animate > div:nth-child(11) { animation-delay: 3.0s }
+.is-animate > div:nth-child(12) { animation-delay: 3.1s }
+.is-animate > div:nth-child(13) { animation-delay: 3.2s }
+.is-animate > div:nth-child(14) { animation-delay: 3.3s }
+.is-animate > div:nth-child(15) { animation-delay: 3.4s }
+.is-animate > div:nth-child(16) { animation-delay: 3.5s }
+.is-animate > div:nth-child(17) { animation-delay: 3.6s }
+
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.44);
+    border: none;
+    margin: 0;
+    border-radius: 0px;
+    min-height: 64px;
+}
+
+.top-nav ul li a {
+    padding: 1.8em;
+    margin: 0 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+/*-- menu --*/
+span.menu {
+	display: none;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+.linkHoverEffect_11 a {
+	margin:0;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	-moz-transition: ease-out 0.3s;
+	-o-transition: ease-out 0.3s;
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+.linkHoverEffect_11 a span::before{
+	background: transparent;
+	width: 6px;
+	height: 6px;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top: 2px solid #e8870b;
+	border-left: 2px solid #e8870b;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	opacity: 0;
+}
+.linkHoverEffect_11 a span::after {
+	background: transparent;
+	width: 6px;
+	height: 6px;
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-right: 2px solid #e8870b;
+	border-bottom: 2px solid #e8870b;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	opacity: 0;
+}
+.linkHoverEffect_11 a::before {
+    background: transparent;
+    width: 6px;
+    height: 6px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: 2px solid #e8870b;
+    border-top: 2px solid #e8870b;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+.linkHoverEffect_11 a::after {
+	background: transparent;
+	width: 6px;
+	height: 6px;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-left: 2px solid #e8870b;
+	border-bottom: 2px solid #e8870b;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	opacity: 0;
+}
+.top-nav .linkHoverEffect_11 li  a:hover,.top-nav .linkHoverEffect_11 li.agile_active  a {
+	color: #e8870b;
+}
+.linkHoverEffect_11 a:hover::before,li.agile_active  a::before {
+	opacity: 1;
+	right: 6px;
+	top: 6px;
+}
+.linkHoverEffect_11 a:hover::after,li.agile_active  a::after {
+	opacity: 1;
+	left: 6px;
+	bottom: 6px;
+}
+.linkHoverEffect_11 a:hover span::before,li.agile_active  a span::before{
+	opacity: 1;
+	left: 6px;
+	top: 6px;
+}
+.linkHoverEffect_11 a:hover span::after,li.agile_active  a span::after {
+	opacity: 1;
+	right: 6px;
+	bottom: 6px;
+}
+
+.top-nav ul li a {
+		text-align: center;
+		padding: 1.4em;
+		display: inline-block;
+	}
+div#bs-example-navbar-collapse-1 {
+		position: absolute;
+		width: 100%;
+/* 		background: rgba(0, 0, 0, 0.75); */
+		z-index: 999;
+	}
+.navbar-nav {
+		float: none;
+		text-align: center;
+		margin: 0;
+	}
+	
+	
+.flex-contatiner {
+  width: 100%;
+  height: 100%;
+  display: inline-block; 
+  justify-content: center;
+  overflow: hidden;
+}
+
+.calendar-container {
+  position: relative;
+  width: 16%;
+  height: 25%;
+  box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+  overflow: visible;
+  display: inline-block;
+}
+
+.image-container {
+	border: 4px solid #fff;
+	border-radius:5px;
+  	position: absolute;
+ 	top: 0;
+	right: 0;
+ 	bottom: 0;
+	left: 0;
+}
+
+.image1, .image2,.image3, .image4,.image5, .image6,.image7, .image8,.image9, .image10,.image11, .image12 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image1{ background-image: url("../images/celebration/Aug.jpg");}
+.image2{ background-image: url("../images/celebration/Sept.JPG");}
+.image3{ background-image: url("../images/celebration/OCT.JPG");} 
+.image4{ background-image: url("../images/celebration/NOV.JPG");}
+.image5{ background-image: url("../images/celebration/DEC.JPG");} 
+.image6{ background-image: url("../images/celebration/Jan.JPG");}
+.image7{ background-image: url("../images/celebration/Feb.JPG");}
+.image8{ background-image: url("../images/celebration/Mar.JPG");}
+.image9{ background-image: url("../images/celebration/April.JPG");}
+.image10{ background-image: url("../images/celebration/May.JPG");} 
+.image11{ background-image: url("../images/celebration/June1.jpeg");} 
+.image12{ background-image: url("../images/celebration/July.JPG");}
+
+.calendar {
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 60px;
+  height: 26px;
+  margin-top: 70%;
+  margin-left: 1.7%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ea6cb4;
+}
+
+.calendar .month-title {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	position: absolute;
+    top: -0.9em; 
+	font-size: 13px;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.celebration > h1{
+	font-size:3em;
+	background-image: url("../images/celebration/frozen.jpg");
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-size: contain;
+	width: 100%;
+	text-align: center;
+	color: #EA384D;
+	font-weight: 900;
+}

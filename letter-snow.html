@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Me ❤ U</title>
+<link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpeg"/>
+<link rel='stylesheet' href='./css/bootstrap.css'>
+<link rel='stylesheet' href='./css/style.css'>
+<link rel='stylesheet' href='./css/basic.css'>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="./js/jquery.snow.min.js"></script>
+
+<style type="text/css">
+body {
+	background: url('./images/sky.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+a {
+	color: #0078ff;
+}
+
+@font-face {
+	font-family: 'FontleroyBrownNF';
+	src: url('./fonts/FontleroyBrownNF.eot?-98ck0s');
+	src: url('./fonts/FontleroyBrownNF.eot?#iefix-98ck0s')
+		format('embedded-opentype'),
+		url('./fonts/FontleroyBrownNF.woff?-98ck0s') format('woff'),
+		url('./fonts/FontleroyBrownNF.ttf?-98ck0s') format('truetype'),
+		url('./fonts/FontleroyBrownNF.svg?-98ck0s#icomoon') format('svg');
+	
+}
+.p2{
+font-family: 'FontleroyBrownNF';
+font-size:3em;
+}
+</style>
+</head>
+<body> 
+<!-- menu -->
+<nav class="navbar navbar-inverse ">
+	<div class="container" style="width: 100%;">
+		
+	<div class="collapse navbar-collapse top-nav w3l" id="bs-example-navbar-collapse-1" style="margin-left: -15px;">
+		<ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu" style="list-style: none;">
+			<li><a href="index.html" class="scroll"><span>home</span></a></li>
+			<li><a href="aboutus.html" class="scroll"><span>Our saga</span></a></li>
+			<li><a href="family.html" class="scroll"><span>Our Family</span></a></li>
+			<li><a href="prewedding.html" class="scroll"><span>PreWedding</span></a></li>
+			<li><a href="first.html" class="scroll"><span>Celebration</span></a></li>
+			<li><a href="memories.html" class="scroll"><span>Memories</span></a></li>
+			<li><a href="letter.html" class="scroll"><span>Letter</span></a></li>		
+		    <li class="agile_active"><a href="letter-snow.html" class="scroll"><span>Letter</span></a></li>	
+		</ul>
+	</div>
+	</div>
+</nav>
+<!-- <audio id="audio" onloadeddata="var audioPlayer = this; audioPlayer.play();setTimeout(function() {changeText($('p'),$('.p2'),70);  }, 3000)"> -->
+<!--     <source src="spcl.mp3" type="audio/mp3" /> -->
+<!-- </audio> -->
+
+<p class="p1"style="display:none;">
+
+On 3rd of July, one year to be exact, you chose me to be your wife.  I must say, I love being your wife.  In fact, I’m proud to be your wife.  It’s truly crazy how fast time flies. I can’t express how happy you’ve made me, how perfect our life is. I have the habit of looking  at you and wonder how you are mine. Thanks for choosing me. 
+
+You are my favorite beginning and end to every day. Every step with you is the beginning of something amazing.
+
+
+You have not only loved me like a husband but loved me like my parents.You are more then I have ever dreamed of my superhero.
+I love those hugs where you don’t let me go. You have given me much more that I deserved and for that, I am very grateful. I am beyond blessed to call you my husband. You are my best friend, my most supporting person and my other half. You mean the world to me and I can't wait to spend forever with you by my side. You’re my favorite place to go to when my mind searches for peace.  You have changed my life in so many ways. Your heart and smile have brightened my days.
+
+You have been my guru and my daily encouragement.  Thank you for believing in me, and for helping me believe in myself. You are the one telling me “you can” when I think I can’t. The one telling me “you will” when I think I won’t.  You have supported my   my home based job. You have taught me cooking, driving, swimming and many more. You’ve been my biggest fan. Thank you for loving me and knowing that you are always there for me.
+
+
+Before you, I never believed in forever. Now I know that is not long enough to spend with you.
+
+Cheers for the first year and many more to come.
+
+I Love You 😘😍 HAPPY ANNIVERSARY My LOVE !!
+
+</p>
+<p class="p2" id ="p2" style="font-style: oblique;text-decoration: blink;color:#FFFFFF;margin-left: 4%; margin-right: 4%"></p> 
+<script type="text/javascript">
+
+
+		function changeText(cont1,cont2,speed){
+		//$("#audio").trigger('play');
+		    var Otext=$(".p1").text();
+		    var Ocontent=Otext.split("");
+		    var i=0;
+		    function show(){
+		        if(i<Ocontent.length)
+		        {       
+		        	$(".p2").append(Ocontent[i]);
+		            i=i+1;
+		         }
+		  	    };
+		    var Otimer=setInterval(show,speed);
+		       
+ 		};
+ 		$(document).ready(function(){
+ 			
+ 			changeText(null,null, 100);
+ 			 $.fn.snow();
+ 			
+ 			
+ 			
+ 		});
+		    
+</script> 
+</body>
+</html>
