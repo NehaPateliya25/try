@@ -92,8 +92,6 @@
 			x = 0;
 		if (dir === 'grow') {
 			for(; x < this.changes.length; x++) {
-				console.log(x);
-				console.log(this.changes[x].change);
 				this.changes[x].elm.css("background-size", "cover");
 				this.changes[x].elm.dequeue().animate( this.changes[x].change, options );
 			}
